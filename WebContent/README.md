@@ -7,7 +7,7 @@ Tecnologias:
 AngularJS 
 
 <h2>Back-end:</h2>
-PHP-Slim e MySQL
+Spring MVC, JDBC e MySQL
 
 <h2>Facilitador:</h2>
 Lyndon Tavares
