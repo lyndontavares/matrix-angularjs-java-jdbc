@@ -1,0 +1,42 @@
+<div>
+    <a ui-sref=overview class="pull-right btn btn-primary btn-outline btn-rounded">voltar ao formulário</a> 
+    <h2>Reports <small>gráficos</small></h2>
+    <!--   <span class="glyphicon glyphicon-dashboard bg-fade"></span> -->
+    <div class=jumbotron>
+        <div class=container>
+            <h1>Gráfico de Expertises</h1>
+            <p>Expertise por módulo do Dolphin ERP por equipe</p>
+            <!--         <p> <a class="btn btn-primary btn-lg btn-outline btn-rounded">Learn more</a> </p>-->
+        </div>
+
+
+
+        <div class="row">   
+
+            <div class="col-md-3">    
+                <h3> Equipe CENTAURION</h3>
+                <nvd3 options="options" data="dataMachado"></nvd3>
+            </div>
+
+            <div class="col-md-3">    
+                <h3> Equipe DATAPOWER</h3>
+                <nvd3 options="options" data="dataRoberto"></nvd3>
+            </div>
+
+            <div class="col-md-3">    
+                <h3> Equipe JAVA</h3>
+                <nvd3 options="options" data="dataDba"></nvd3>
+            </div>
+
+            <div class="col-md-3">    
+                <h3> Equipe de Produto</h3>
+                <nvd3 options="options" data="dataProduto"></nvd3>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+
